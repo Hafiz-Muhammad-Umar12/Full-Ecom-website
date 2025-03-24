@@ -35,3 +35,18 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
 "# Full-Ecom-website" 
+
+
+
+my_readme
+settings.json configuration
+update app/globals.css for custom classes
+components/shared/header/menu.tsx   => for website layout
+components/shared/header/search.tsx => for select input from shadcn
+lib/data.ts  => for data
+components/shared/header/index.tsx => for header
+components/shared/footer.tsx => for footer
+app/(home)/layout.tsx => for custom layout
+app/(home)/page.tsx => for home page  shift page.tsx from app to (home)
+app/layout.tsx => 
+
