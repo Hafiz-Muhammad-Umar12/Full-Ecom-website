@@ -48,5 +48,11 @@ components/shared/header/index.tsx => for header
 components/shared/footer.tsx => for footer
 app/(home)/layout.tsx => for custom layout
 app/(home)/page.tsx => for home page  shift page.tsx from app to (home)
-app/layout.tsx => 
+app/layout.tsx => y
+add images in public/images/banner1,2,3
+data.ts 
+npx shadcn@latest add carousel
+npm i embla-carousel-autoplay
+components/shared/home/home-carousel.tsx
+page/(home)/page.tsx
 
