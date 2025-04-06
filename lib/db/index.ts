@@ -1,6 +1,7 @@
 import mongoose from "mongoose";
 
-const cached = (global as any).mongoose || { conn : null, promise: null}
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+const cached = (global as any).mongoose || { conn : null, promise: null };
 
 export const connectToDatabase = async (
     MONGODB_URL= process.env.MONGODB_URL
