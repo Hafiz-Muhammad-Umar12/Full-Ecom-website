@@ -41,7 +41,7 @@ export default function Header() {
                     All
                     </Button>
                     <div className="flex items-center flex-wrap gap-3 max-h-[42px] overflow-hidden">
-                        {data.HeaderMenus.map((menu)=>(
+                        {data.headerMenus.map((menu)=>(
                             <Link key={menu.href} href={menu.href} className="header-button !p-2">
                                 {menu.name} 
                             </Link>
