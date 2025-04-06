@@ -55,4 +55,26 @@ npx shadcn@latest add carousel
 npm i embla-carousel-autoplay
 components/shared/home/home-carousel.tsx
 page/(home)/page.tsx
+create mongodb database on mongodb.com
+get mongodb connection string and put it in .env.local as MONGODB_URL
+npm i mongoose
+lib/db/index.ts
 
+password : JSPUm7NDNgt0ZsPD
+
+lib/utils.ts
+npm i zod
+lib/validator.ts
+types/index.ts
+lib/db/models/product.model.ts
+types/index.ts
+lib/data.ts
+add images from p-11-1 to p-46-2.jpg and categories images to public/images folder.
+lib/db/seed.ts
+package.json update
+npm run seed
+open mongodb compass and check results
+
+copy .env.local content and past in vercel environment
+commit changes and push to GitHub
+go to https://full-ecom-website.vercel.app
