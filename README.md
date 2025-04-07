@@ -78,3 +78,18 @@ open mongodb compass and check results
 copy .env.local content and past in vercel environment
 commit changes and push to GitHub
 go to https://full-ecom-website.vercel.app
+
+cretae-home-cards
+npx shadcn@latest add card
+components/shared/home/home-card.tsx
+lib/actions/product.actions.ts
+app/(home)/page.tsx
+create-todays-deals-slider
+update global.css
+update lib/actions/product.actions.ts
+update lib/utils.ts
+components/shared/product/rating.tsx
+components/shared/product/product-price.tsx
+components/shared/product/image-hover.tsx
+components/shared/product/product-card.tsx
+components/shared/product/product-slider.tsx
