@@ -94,3 +94,11 @@ components/shared/product/image-hover.tsx
 components/shared/product/product-card.tsx
 components/shared/product/product-slider.tsx
 app/(home)/page.tsx
+npm i react-medium-image-zoom
+npx shadcn@latest add separator
+lib/constants.ts
+lib/actions/product.actions.ts
+components/shared/product/product-gallary.tsx
+components/shared/product/select-variant.tsx
+app/(root)/product/[slug]/page.tsx
+app/(root)/layout.tsx
