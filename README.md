@@ -93,3 +93,4 @@ components/shared/product/product-price.tsx
 components/shared/product/image-hover.tsx
 components/shared/product/product-card.tsx
 components/shared/product/product-slider.tsx
+app/(home)/page.tsx
