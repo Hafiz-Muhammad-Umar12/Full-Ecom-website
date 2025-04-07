@@ -1,3 +1,5 @@
+export const dynamic = "force-dynamic"
+
 import { HomeCard } from "@/components/shared/home/home-card";
 import HomeCarousel from "@/components/shared/home/home-carousel";
 import ProductSlider from "@/components/shared/product/product-slider";
