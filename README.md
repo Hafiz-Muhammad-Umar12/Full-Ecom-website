@@ -102,3 +102,12 @@ components/shared/product/product-gallary.tsx
 components/shared/product/select-variant.tsx
 app/(root)/product/[slug]/page.tsx
 app/(root)/layout.tsx
+create-browsing-history
+npm i zustand
+hooks/use-browsing-history.ts
+components/shared/browsing-history-list.tsx
+api address
+app/api/products/browsing-history/route.ts
+app/(home)/page.tsx
+app/(root)/product/[slug]/page.tsx
+components/shared/product/add-to-browsing-history.tsx
