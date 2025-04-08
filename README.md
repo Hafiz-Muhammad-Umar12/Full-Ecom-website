@@ -140,3 +140,32 @@ create hooks/use-cart-sidebar.ts
 UPDATED components/shared/header/cart-button.tsx
 create components/shared/client-providers.tsx
 update app/layout.tsx
+sigin user
+npx shadcn@latest add form dropdown-menu
+npm i next-auth@beta bcryptjs react-hook-form @hookform/resolvers mongodb @auth/mongodb-adapter
+npm i --save-dev @types/bcryptjs
+
+create app/checkout/page.tsx
+updated lib/validator.ts
+update types/index.ts
+create lib/db/models/user.model.ts
+create lib/db/client.ts
+create auth.config.ts
+create auth.ts
+create middleware.ts
+create app/api/auth/[...nextauth]/route.ts
+create components/shared/separator-or.tsx
+ctreate lib/actions/user.actions.ts
+update app/globals.css
+create app/(auth)/sign-in/credentials-signin-form.tsx
+create app/(auth)/sign-in/page.tsx
+create components/shared/header/user-button.tsx
+update components/shared/header/menu.tsx
+creating APP_COPYRIGHT
+process.env.NEXT_PUBLIC_APP_COPYRIGHT || 
+`Copyright © 2025 ${APP_NAME}. All rights reserved.`
+create app/(auth)/layout.tsx
+updated lib/data.ts
+updated lib/db/seed.ts
+again run npm run seed
+NEXTAUTH (generate secret: $ npx auth secret)
