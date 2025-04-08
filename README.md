@@ -127,3 +127,16 @@ app/(root)/cart/[itemId]/page.tsx
 components/shared/header/cart-button.tsx
 components/shared/header/menu.tsx
 components/shared/product/product-card.tsx
+create-cart-page
+hooks/use-cart-store.ts
+app/(root)/cart/page.tsx
+create-cart-sidebar
+npx shadcn@latest add scroll-area
+
+update lib/utils.ts
+components/shared/cart-sidebar.tsx
+create hooks/use-device-type.ts
+create hooks/use-cart-sidebar.ts
+UPDATED components/shared/header/cart-button.tsx
+create components/shared/client-providers.tsx
+update app/layout.tsx

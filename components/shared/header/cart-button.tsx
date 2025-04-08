@@ -6,6 +6,7 @@ import useIsMounted from '@/hooks/use-is-mounted'
 // import useShowSidebar from '@/hooks/use-cart-sidebar'
 import { cn } from '@/lib/utils'
 import useCartStore from '@/hooks/use-cart-store'
+import useCartSidebar from '@/hooks/use-cart-sidebar'
 // import { useLocale, useTranslations } from 'next-intl'
 // import { getDirection } from '@/i18n-config'
 
@@ -15,6 +16,7 @@ export default function CartButton() {
     cart: { items },
   } = useCartStore()
   const cartItemsCount = items.reduce((a, c) => a + c.quantity, 0)
+  const isCartSideBarOpen = useCartSidebar()
 //   const showSidebar = useShowSidebar()
 //   const t = useTranslations()
 
@@ -36,6 +38,10 @@ export default function CartButton() {
         )}
         <span className='font-bold'>Cart</span>
 
+        {isCartSideBarOpen && (
+          <div className='absolute top-[-20px] right-[-16px] z-10 w-0 h-0 border-l-[7px] border-r-[7px] border-b-[8px] border-transparent border-b-background'
+          ></div>
+        )}
         {/* {showSidebar && (
           <div
             className={`absolute top-[20px] ${
