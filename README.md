@@ -111,3 +111,19 @@ app/api/products/browsing-history/route.ts
 app/(home)/page.tsx
 app/(root)/product/[slug]/page.tsx
 components/shared/product/add-to-browsing-history.tsx
+implement add-to-cart
+npx shadcn@latest add toast
+lib/utils.ts
+lib/constants.ts
+lib/validator.ts
+types/index.ts
+lib/actions/order.actions.ts
+hooks/use-cart-store.ts
+components/shared/product/add-to-cart.tsx
+hooks/use-is-mounted.ts
+app/(root)/product/[slug]/page.tsx
+app/(root)/cart/[itemId]/cart-add-item.tsx
+app/(root)/cart/[itemId]/page.tsx
+components/shared/header/cart-button.tsx
+components/shared/header/menu.tsx
+components/shared/product/product-card.tsx
